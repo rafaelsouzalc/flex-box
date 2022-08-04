@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora - FlexBox</title>
+
+    <style>
+        .flex-conteiner{
+            display: flex;
+            height: 510px;
+            border: 2px solid white;
+            max-width: 306px;
+        }
+
+        .numeros{
+            font-size: 20px;
+            height: 60px;
+            text-align: center;
+            color: white;
+            min-width: 100px;
+            line-height: 50px;
+            background-color: gray;
+            border: 1px solid white;
+        }
+
+        .resultado{
+            font-size: 45px;
+            height: 15%;
+            text-align: right;
+            color: white;
+            min-width: 100%;
+            line-height: 50px;
+            background-color: black;            
+        }
+
+        .sinais{
+            font-size: 20px;
+            height: 60px;
+            text-align: center;
+            color: white;
+            min-width: 100px;
+            line-height: 50px;
+            background-color: orangered;
+            border: 1px solid white;
+        }
+
+        .funcoes{
+            font-size: 20px;
+            height: 60px;
+            text-align: center;
+            color: white;
+            min-width: 100px;
+            line-height: 50px;
+            background-color: cornflowerblue;
+            border: 1px solid white;
+        }
+
+        .wrap{
+            flex-wrap: wrap;
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+        <h1>CALCULADORA</h1>
+    </center>
+    <div class="flex-conteiner wrap">
+        <div class="resultado">0,00</div>
+        <div class="numeros funcoes">MC</div>
+        <div class="numeros funcoes">CE</div>
+        <div class="numeros funcoes">C</div>
+        <div class="numeros">0</div>
+        <div class="numeros">1</div>
+        <div class="numeros">2</div>
+        <div class="numeros">3</div>
+        <div class="numeros">4</div>
+        <div class="numeros">5</div>
+        <div class="numeros">6</div>
+        <div class="numeros">7</div>
+        <div class="numeros">8</div>
+        <div class="numeros">9</div>
+        <div class="numeros sinais"><-</div>
+        <div class="numeros sinais">,</div>
+        <div class="numeros sinais">X</div>
+        <div class="numeros sinais">+</div>
+        <div class="numeros sinais">-</div>
+        <div class="numeros sinais">/</div>
+        <div class="numeros sinais">%</div>
+        <div class="numeros sinais">=</div>
+    </div>
+
+
+</body>
+</html>
